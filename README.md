@@ -51,7 +51,7 @@ target application — all without touching the app's source code.
 ```
 NS-Panel/
 ├── launcher.py             Main entry point — run this
-├── START_GPANEL.bat        Double-click launcher (auto-installs deps)
+├── ChainEX.bat             Double-click launcher (auto-installs deps)
 ├── bot_engine.py           Core state machine loop
 ├── window_ctrl.py          Win32 API — capture + PostMessage input
 ├── image_recognizer.py     OpenCV template matching helpers
@@ -81,7 +81,7 @@ NS-Panel/
 
 ### Option A — Double-click launcher (recommended)
 
-1. Double-click **`START_GPANEL.bat`**
+1. Double-click **`ChainEX.bat`**
 2. It installs all dependencies automatically and opens ChainEX
 
 ### Option B — Manual install
