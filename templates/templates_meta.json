@@ -1,0 +1,6 @@
+{
+  "_comment": "Optional: per-template ROI [x, y, w, h] in client pixels. Omit a template to search the full frame.",
+  "_example_btn_ok": {
+    "roi": [100, 400, 200, 80]
+  }
+}

@@ -1,0 +1,40 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ── PyInstaller ───────────────────────────────────────────────────────────────
+# chainex.spec is the build recipe and IS committed
+# dist/ and build/ are build artefacts and are NOT committed
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Runtime / user data ───────────────────────────────────────────────────────
+config.json
+config.json.bak
+session_history.json
+*.log
+*.log.*
+debug/
+profiles/
+
+# ── Templates (game assets captured by the user) ──────────────────────────────
+templates/*.png
+templates/*.bmp
+templates/**/*.png
+templates/**/*.bmp
+!templates/templates_meta.json
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

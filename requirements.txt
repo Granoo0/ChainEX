@@ -1,0 +1,13 @@
+# ─── Python package requirements ────────────────────────────────────────────
+# Install all with:  pip install -r requirements.txt
+
+pywin32>=306
+opencv-python>=4.9.0
+numpy>=1.26.0
+pynput>=1.7.6
+Pillow>=10.2.0
+
+# ─── Development / packaging ─────────────────────────────────────────────────
+# pip install pyinstaller pytest
+pyinstaller>=6.0
+pytest>=8.0
